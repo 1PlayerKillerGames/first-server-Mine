@@ -1,0 +1,156 @@
+@media (max-width) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+body{
+    background: rgb(199, 250, 194);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 30px;
+}
+
+/* #id */
+.logoFabric {
+    margin-left: 13%;
+    width: 900px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 100px rgb(3, 3, 3);
+} 
+
+.info h1 {
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 70px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 5px;
+font-weight: 400;
+margin: 25px;
+word-spacing: 10px;
+}
+
+.info h3 {
+text-align: center;   
+color: rgb(31, 111, 231);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none ;
+text-transform: none;
+letter-spacing: 5px;
+word-spacing: 10px;
+font-size: 26px;
+padding: 10px;
+} 
+
+a {
+    color: rgb(57, 2, 255);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(248, 0, 12);
+}
+/* a:visited{
+    color: rgb(6, 204, 253);
+} */
+
+.color-card1 {
+    text-align: center;
+    border-radius: 50px ;
+    background-color: rgb(176, 238, 61);
+    padding:10px 10px ;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color: rgb(112, 112, 247);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none; 
+    font-size: 20px;
+    font-family: inherit;
+    background-color:rgb(199, 250, 194) ;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    margin-left: 40%;
+    margin-top: 10px;
+    background-color: rgb(112, 112, 247);
+    padding: 15px;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.social {
+    /* text-align: center; */
+    margin-left: 35%;
+    border: 20px;
+    padding-bottom: 20px;
+}
+
+.social img {
+    padding-right: 25px;
+}
+
+.positionwoman {
+    width: 600px;
+    position: fixed;
+    right: 10px;
+    bottom:-10px;
+}
+
+.positionwoman2 {
+    position: fixed;
+    left: 20px;
+    right: 75%;
+    bottom:0;
+}
+
+.all {
+    text-align: center;
+    font-size: 10px;
+}
+
+.imgSton {
+width: 100%;
+}
